@@ -17,6 +17,13 @@ const projectsData = [
     ],
   },
   {
+    title: 'Stoqu Inamawangi',
+    description: 'Stoqu Inamawangi is an application used to manage stocks and incoming orders',
+    imgSrc: '/static/images/projects/inamawangi.svg',
+    href: 'https://inamawangi.com/',
+    stacks: ['React', 'React Context', 'React Query', 'Zustand', 'Material UI'],
+  },
+  {
     title: 'Attendance Management for Administrator (Japan)',
     description: 'Attendance Management System based on Japan for Administrator Monitoring',
     imgSrc: '/static/images/projects/attendance-admin.svg',
