@@ -26,7 +26,7 @@ export default function Projects() {
 
             return (
               <div
-                className="rounded-[12px] flex overflow-hidden"
+                className="rounded-[12px] overflow-hidden grid grid-cols-2"
                 style={{
                   boxShadow:
                     '0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07)',
@@ -34,13 +34,13 @@ export default function Projects() {
                 key={index}
               >
                 <div
-                  className={`w-[50%] p-[48px] bg-[#F9FAFB] dark:bg-[#374151] flex items-center justify-center ${
-                    isEven ? '' : 'order-1'
+                  className={`col-span-2 lg:col-span-1 p-[48px] bg-[#F9FAFB] dark:bg-[#374151] flex items-center justify-center ${
+                    isEven ? '' : 'order-0 lg:order-1'
                   }`}
                 >
                   <img src={project.imgSrc} className="w-full h-full" alt="Happy5" />
                 </div>
-                <div className="w-[50%] p-[48px] bg-white dark:bg-[#1F2937]">
+                <div className="col-span-2 lg:col-span-1 p-[48px] bg-white dark:bg-[#1F2937]">
                   <h2 className="font-bold text-xl mb-[24px]">{project.title}</h2>
                   <p className="mb-[4px]">{project.description}</p>
 
