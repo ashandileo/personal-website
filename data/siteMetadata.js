@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Personal Website',
   author: 'Ashandi Leonadi',
-  headerTitle: 'TailwindBlog',
+  headerTitle: '@ashandileonadi',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -11,12 +11,11 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
+  email: 'ashandileonadi@gmail.com',
+  github: 'https://github.com/ashandileo',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/ashandi-leonadi',
+  instagram: 'https://instagram.com/ashandi.leo',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
