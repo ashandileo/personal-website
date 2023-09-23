@@ -1,19 +1,34 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Happy5',
+    description:
+      'Happy5 is mobile-first, continuous performance management platform with real-time people data',
+    imgSrc: '/static/images/projects/happy5.svg',
+    href: 'https://happy5.co/',
+    stacks: [
+      'React',
+      'React Context',
+      'React Query',
+      'Zustand',
+      'Cypress',
+      'Storybook',
+      'Typescript',
+      'Tailwindcss',
+    ],
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Attendance Management for Administrator (Japan)',
+    description: 'Attendance Management System based on Japan for Administrator Monitoring',
+    imgSrc: '/static/images/projects/attendance-admin.svg',
+    href: 'https://attendance-sys.ja-hakui.com/',
+    stacks: ['React.js', 'Next.js', 'React Context', 'React Query', 'Zustand', 'Reactstrap'],
+  },
+  {
+    title: 'Attendance Stamping for Worker (Japan)',
+    description: 'Attendance Management System based on Japan (Stamping with QR Code) for Worker',
+    imgSrc: '/static/images/projects/attendance-user.svg',
+    href: 'https://stamping-sys.ja-hakui.com/',
+    stacks: ['React.js', 'Next.js', 'React Context', 'React Query', 'Zustand', 'Reactstrap'],
   },
 ]
 
