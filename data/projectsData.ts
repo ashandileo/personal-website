@@ -37,6 +37,28 @@ const projectsData = [
     href: 'https://stamping-sys.ja-hakui.com/',
     stacks: ['React.js', 'Next.js', 'React Context', 'React Query', 'Zustand', 'Reactstrap'],
   },
+  {
+    title: 'Teduh Landing Page',
+    description: 'Teduh Landing Page is an application to show my client projects',
+    imgSrc: '/static/images/projects/teduh.svg',
+    href: 'https://teduh-application.vercel.app/',
+    stacks: ['React.js', 'Next.js', 'Tailwindcss'],
+  },
+  {
+    title: 'Bundled Seo Dashboard Admin',
+    description: 'Bundled SEO is an application to maximize SEO with secure Premium Tools',
+    imgSrc: '/static/images/projects/bundled-seo.svg',
+    href: 'https://bundledseo-custom-system.vercel.app/',
+    stacks: ['React.js', 'Next.js', 'Tailwindcss'],
+  },
+  {
+    title: 'GoMovies',
+    description:
+      'GoMovies is a movie application that provides users with information and details about movies. The application allows users to search for movies and view details',
+    imgSrc: '/static/images/projects/go-movies.svg',
+    href: 'https://movie-app-lemon-sigma.vercel.app/',
+    stacks: ['React.js', 'Tailwindcss', 'MovieDB'],
+  },
 ]
 
 export default projectsData
