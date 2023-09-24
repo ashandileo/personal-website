@@ -6,13 +6,13 @@ import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import siteMetadata from '@/data/siteMetadata'
 
-export default function Home({ posts }) {
+export default function Home() {
   return (
     <AnimateComponent>
       <div className="mt-[40px]">
         <div className="text-center">
           <div className="flex items-center justify-center">
-            <h1 className="linear-wipe text-5xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-bold">
+            <h1 className="linear-wipe text-5xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 font-bold">
               Hi there! I'm Ashandi
             </h1>
             <span className="text-5xl ml-[8px] wave">👋</span>
