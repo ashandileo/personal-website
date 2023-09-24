@@ -1,5 +1,5 @@
+import Image from 'next/image'
 import Badge from './Badge'
-import LazyImage from './LazyImage'
 import Link from './Link'
 import SocialIcon from './social-icons'
 
@@ -19,7 +19,15 @@ const Card = ({ project, index }) => {
           isEven ? '' : 'order-0 lg:order-1'
         }`}
       >
-        <LazyImage alt={project.title} src={project.imgSrc} className="w-full h-full" />
+        <div className="relative w-full h-full">
+          <Image
+            alt={project.title}
+            src={project.imgSrc}
+            className="w-full h-full"
+            layout="fill"
+            objectFit="contain"
+          />
+        </div>
       </div>
       <div className="col-span-2 lg:col-span-1 p-[48px] bg-white dark:bg-[#1F2937]">
         <div className="flex items-center mb-[24px]">
