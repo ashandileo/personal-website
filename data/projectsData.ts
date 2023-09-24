@@ -15,6 +15,7 @@ const projectsData = [
       'Typescript',
       'Tailwindcss',
     ],
+    type: 'professional',
   },
   {
     title: 'Stoqu Inamawangi',
@@ -22,6 +23,7 @@ const projectsData = [
     imgSrc: '/static/images/projects/inamawangi.svg',
     href: 'https://inamawangi.com/',
     stacks: ['React', 'React Context', 'React Query', 'Zustand', 'Material UI'],
+    type: 'professional',
   },
   {
     title: 'Attendance Management for Administrator (Japan)',
@@ -29,6 +31,7 @@ const projectsData = [
     imgSrc: '/static/images/projects/attendance-admin.svg',
     href: 'https://attendance-sys.ja-hakui.com/',
     stacks: ['React.js', 'Next.js', 'React Context', 'React Query', 'Zustand', 'Reactstrap'],
+    type: 'professional',
   },
   {
     title: 'Attendance Stamping for Worker (Japan)',
@@ -36,6 +39,7 @@ const projectsData = [
     imgSrc: '/static/images/projects/attendance-user.svg',
     href: 'https://stamping-sys.ja-hakui.com/',
     stacks: ['React.js', 'Next.js', 'React Context', 'React Query', 'Zustand', 'Reactstrap'],
+    type: 'professional',
   },
   {
     title: 'Teduh Landing Page',
@@ -43,6 +47,7 @@ const projectsData = [
     imgSrc: '/static/images/projects/teduh.svg',
     href: 'https://teduh-application.vercel.app/',
     stacks: ['React.js', 'Next.js', 'Tailwindcss'],
+    type: 'professional',
   },
   {
     title: 'Bundled Seo Dashboard Admin',
@@ -50,6 +55,7 @@ const projectsData = [
     imgSrc: '/static/images/projects/bundled-seo.svg',
     href: 'https://bundledseo-custom-system.vercel.app/',
     stacks: ['React.js', 'Next.js', 'Tailwindcss'],
+    type: 'professional',
   },
   {
     title: 'GoMovies',
@@ -58,6 +64,7 @@ const projectsData = [
     imgSrc: '/static/images/projects/go-movies.svg',
     href: 'https://movie-app-lemon-sigma.vercel.app/',
     stacks: ['React.js', 'Tailwindcss', 'MovieDB'],
+    type: 'personal',
   },
 ]
 
