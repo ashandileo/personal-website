@@ -53,8 +53,8 @@ const ProjectsContent = () => {
               return (
                 <div
                   className={`${
-                    isActive ? 'bg-primary-500' : 'bg-transparent'
-                  } hover:bg-primary-500 w-min px-3 py-2 rounded-lg transition-all duration-250 cursor-pointer`}
+                    isActive ? 'bg-primary-500 text-white' : 'bg-transparent'
+                  } hover:bg-primary-500 hover:text-white w-min px-3 py-2 rounded-lg transition-all duration-250 cursor-pointer`}
                   key={index}
                   onClick={() => setActiveTab(tab.id)}
                 >
@@ -66,7 +66,7 @@ const ProjectsContent = () => {
 
           <div className="flex flex-col gap-[48px]">
             {filteredProjects.map((project, index) => (
-              <Card key={index} project={project} index={index} />
+              <Card key={project.id} project={project} index={index} />
             ))}
           </div>
         </div>

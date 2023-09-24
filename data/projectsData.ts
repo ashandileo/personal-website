@@ -1,5 +1,6 @@
 const projectsData = [
   {
+    id: 1,
     title: 'Happy5',
     description:
       'Happy5 is mobile-first, continuous performance management platform with real-time people data',
@@ -18,6 +19,7 @@ const projectsData = [
     type: 'professional',
   },
   {
+    id: 2,
     title: 'Stoqu Inamawangi',
     description: 'Stoqu Inamawangi is an application used to manage stocks and incoming orders',
     imgSrc: '/static/images/projects/inamawangi.svg',
@@ -26,6 +28,7 @@ const projectsData = [
     type: 'professional',
   },
   {
+    id: 3,
     title: 'Attendance Management for Administrator (Japan)',
     description: 'Attendance Management System based on Japan for Administrator Monitoring',
     imgSrc: '/static/images/projects/attendance-admin.svg',
@@ -34,6 +37,7 @@ const projectsData = [
     type: 'professional',
   },
   {
+    id: 4,
     title: 'Attendance Stamping for Worker (Japan)',
     description: 'Attendance Management System based on Japan (Stamping with QR Code) for Worker',
     imgSrc: '/static/images/projects/attendance-user.svg',
@@ -42,6 +46,7 @@ const projectsData = [
     type: 'professional',
   },
   {
+    id: 5,
     title: 'Teduh Landing Page',
     description: 'Teduh Landing Page is an application to show my client projects',
     imgSrc: '/static/images/projects/teduh.svg',
@@ -50,6 +55,7 @@ const projectsData = [
     type: 'professional',
   },
   {
+    id: 6,
     title: 'Bundled Seo Dashboard Admin',
     description: 'Bundled SEO is an application to maximize SEO with secure Premium Tools',
     imgSrc: '/static/images/projects/bundled-seo.svg',
@@ -58,12 +64,14 @@ const projectsData = [
     type: 'professional',
   },
   {
+    id: 7,
     title: 'GoMovies',
     description:
       'GoMovies is a movie application that provides users with information and details about movies. The application allows users to search for movies and view details',
     imgSrc: '/static/images/projects/go-movies.svg',
     href: 'https://movie-app-lemon-sigma.vercel.app/',
     stacks: ['React.js', 'Tailwindcss', 'MovieDB'],
+    github: 'https://github.com/ashandileo/MovieApp',
     type: 'personal',
   },
 ]
