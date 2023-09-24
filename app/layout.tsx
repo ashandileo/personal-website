@@ -76,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white transition-colors duration-250">
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
-          <div className="bg-white sticky top-[0px]">
+          <div className="bg-white dark:bg-gray-950 sticky top-[0px] transition-colors duration-250">
             <SectionContainer>
               <Header />
             </SectionContainer>
