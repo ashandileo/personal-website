@@ -15,7 +15,7 @@ export default function Home({ posts }) {
             <h1 className="linear-wipe text-5xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-bold">
               Hi there! I'm Ashandi
             </h1>
-            <span className="text-5xl ml-[8px]">👋</span>
+            <span className="text-5xl ml-[8px] wave">👋</span>
           </div>
 
           <p className="mt-[12px]">
