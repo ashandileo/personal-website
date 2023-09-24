@@ -1,5 +1,6 @@
 import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 import { Space_Grotesk } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
@@ -76,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white transition-colors duration-250">
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
-          <div className="bg-white dark:bg-gray-950 sticky top-[0px] transition-colors duration-250">
+          <div className="bg-white dark:bg-gray-950 sticky top-[0px] transition-colors duration-250 z-[1]">
             <SectionContainer>
               <Header />
             </SectionContainer>

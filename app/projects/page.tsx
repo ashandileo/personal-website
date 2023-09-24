@@ -1,10 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
 import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
 import { genPageMetadata } from 'app/seo'
 import AnimateComponent from '@/components/AnimateComponent'
 import Link from 'next/link'
 import Badge from '@/components/Badge'
+import LazyImage from '@/components/LazyImage'
 
 export const metadata = genPageMetadata({ title: 'Projects' })
 
@@ -38,7 +37,7 @@ export default function Projects() {
                     isEven ? '' : 'order-0 lg:order-1'
                   }`}
                 >
-                  <img src={project.imgSrc} className="w-full h-full" alt="Happy5" />
+                  <LazyImage alt={project.title} src={project.imgSrc} className="w-full h-full" />
                 </div>
                 <div className="col-span-2 lg:col-span-1 p-[48px] bg-white dark:bg-[#1F2937]">
                   <h2 className="font-bold text-xl mb-[24px]">{project.title}</h2>

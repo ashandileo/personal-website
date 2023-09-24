@@ -2,6 +2,7 @@ import { ReactNode } from 'react'
 import type { Authors } from 'contentlayer/generated'
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
+import LazyImage from '@/components/LazyImage'
 
 interface Props {
   children: ReactNode
@@ -22,13 +23,7 @@ export default function AuthorLayout({ children, content }: Props) {
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center space-x-2 pt-8">
             {avatar && (
-              <Image
-                src={avatar}
-                alt="avatar"
-                width={192}
-                height={192}
-                className="h-48 w-48 rounded-full"
-              />
+              <LazyImage src={avatar} alt="avatar" className="w-[192px] h-[192px] rounded-full" />
             )}
             <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
