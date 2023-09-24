@@ -24,8 +24,8 @@ const Card = ({ project, index }) => {
             alt={project.title}
             src={project.imgSrc}
             className="w-full h-full"
-            layout="fill"
-            objectFit="contain"
+            width={192}
+            height={192}
           />
         </div>
       </div>
