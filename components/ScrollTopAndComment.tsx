@@ -24,9 +24,11 @@ const ScrollTopAndComment = () => {
   }
   return (
     <div
-      className={`fixed bottom-8 right-8 hidden flex-col gap-3 ${show ? 'md:flex' : 'md:hidden'}`}
+      className={`fixed bottom-8 right-8 flex-col gap-3 ${
+        show ? 'opacity-1 pointer-events-auto' : 'opacity-0 pointer-events-none'
+      } transition-opacity duration-250`}
     >
-      {siteMetadata.comments?.provider && (
+      {/* {siteMetadata.comments?.provider && (
         <button
           aria-label="Scroll To Comment"
           onClick={handleScrollToComment}
@@ -40,7 +42,7 @@ const ScrollTopAndComment = () => {
             />
           </svg>
         </button>
-      )}
+      )} */}
       <button
         aria-label="Scroll To Top"
         onClick={handleScrollTop}
