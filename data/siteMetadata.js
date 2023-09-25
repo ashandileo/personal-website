@@ -9,8 +9,8 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://ashandileonadi.com',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/logo.svg',
+  siteLogo: '/static/favicons/android-chrome-512x512.png',
+  socialBanner: '/static/favicons/android-chrome-512x512.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'ashandileonadi@gmail.com',
   github: 'https://github.com/ashandileo',
