@@ -3,10 +3,11 @@ const siteMetadata = {
   title: 'Ashandi Leonadi',
   author: 'Ashandi Leonadi',
   headerTitle: '@ashandi.leo',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description:
+    "I'm a Software Frontend Engineer with 3+ years of experience developing web applications using React.js / Next.js including performance, functions, integration systems, and user acceptance.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://ashandileonadi.com',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/logo.svg',
