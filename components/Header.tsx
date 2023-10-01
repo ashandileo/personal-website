@@ -1,22 +1,29 @@
+'use client'
+
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import Typewriter from 'typewriter-effect'
+import { usePathname } from 'next/navigation'
 
 const Header = () => {
+  const pathname = usePathname()
+
   return (
     <header className="flex items-center justify-between py-10">
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
-          <div className="flex items-center justify-between">
-            {typeof siteMetadata.headerTitle === 'string' ? (
-              <div className="hidden h-6 text-2xl font-semibold sm:block">
-                {siteMetadata.headerTitle}
-              </div>
-            ) : (
-              siteMetadata.headerTitle
-            )}
+          <div className="flex items-center justify-between text-xl font-semibold text-primary-500">
+            <span className="text-gray-900 dark:text-gray-50">{'ashandi.leo ~/'}</span>
+            <Typewriter
+              options={{
+                strings: pathname === '/' ? 'home' : pathname.slice(1),
+                autoStart: true,
+                loop: false,
+              }}
+            />
           </div>
         </Link>
       </div>
