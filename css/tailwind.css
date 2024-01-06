@@ -22,6 +22,14 @@
   @apply my-5;
 }
 
+.whatsapp-chatbox-container input {
+  color: black !important;
+}
+
+.floating-whatsapp-button {
+  right: 5rem !important;
+}
+
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
