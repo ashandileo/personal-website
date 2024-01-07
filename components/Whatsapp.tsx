@@ -7,10 +7,12 @@ const Whatsapp = () => {
   return (
     <div>
       <FloatingWhatsApp
-        phoneNumber="085216398875"
+        phoneNumber="6285216398875"
         accountName="Ashandi Leonadi"
-        chatMessage="Hi!"
+        chatMessage="Hi! Ada yang bisa saya bantu?"
         chatboxClassName="whatsapp-chatbox-container"
+        avatar="/static/images/ashandi.JPG"
+        statusMessage="Online"
       />
     </div>
   )

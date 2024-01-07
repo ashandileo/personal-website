@@ -26,6 +26,10 @@
   color: black !important;
 }
 
+.whatsapp-chatbox-container img {
+  object-fit: cover !important;
+}
+
 .floating-whatsapp-button {
   right: 5rem !important;
 }
